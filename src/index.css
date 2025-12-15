@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-colors;
+  }
+  
+  .btn-primary {
+    @apply px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600 transition-colors;
+  }
+  
+  /* Fix for text visibility in dark backgrounds */
+  .text-on-dark {
+    @apply text-white;
+  }
+  
+  /* Input styles for dark mode */
+  input, select, textarea {
+    @apply dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600;
+  }
+  
+  /* Table styles for dark mode */
+  table {
+    @apply dark:divide-gray-700;
+  }
+  
+  thead {
+    @apply dark:bg-gray-700;
+  }
+  
+  tbody {
+    @apply dark:bg-gray-800 dark:divide-gray-700;
+  }
+  
+  /* Footer fix - ensure white text on dark background */
+  footer {
+    @apply bg-gray-800 text-white dark:bg-gray-950;
+  }
+  
+  /* Navigation dark mode */
+  nav {
+    @apply dark:bg-gray-800 dark:shadow-gray-900;
+  }
+  
+  /* Mobile responsive utilities */
+  @media (max-width: 640px) {
+    .mobile-menu {
+      @apply fixed inset-0 z-50 bg-white dark:bg-gray-800;
+    }
+    
+    .card {
+      @apply p-4;
+    }
+    
+    .grid-responsive {
+      @apply grid-cols-1;
+    }
+  }
+}
