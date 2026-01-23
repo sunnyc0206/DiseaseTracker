@@ -331,14 +331,14 @@ const About = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="mailto:contact@worlddiseasetracker.com"
+            href="https://github.com/sunnyc0206/DiseaseTracker"
             className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition-colors"
           >
             <MailIcon className="w-5 h-5" />
             Contact Us
           </a>
           <a
-            href="https://github.com/yourusername/disease-tracker"
+            href="https://github.com/sunnyc0206/DiseaseTracker"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600 transition-colors"
