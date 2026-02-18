@@ -78,7 +78,7 @@ const Layout = ({ isAdmin = false }) => {
             <div className="flex items-center space-x-2 sm:space-x-4">
               {/* GitHub Link */}
               <a
-                href="https://github.com/yourusername/disease-tracker"
+                href="https://github.com/sunnyc0206/DiseaseTracker"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
