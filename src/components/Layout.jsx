@@ -171,7 +171,7 @@ const Layout = ({ isAdmin = false }) => {
         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-sm">
-              © 2025 World Disease Tracker (WDT). Data sourced from WHO and trusted health organizations.
+              © 2026 World Disease Tracker (WDT). Data sourced from WHO and trusted health organizations.
             </p>
           </div>
         </div>
