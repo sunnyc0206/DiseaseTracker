@@ -23,7 +23,8 @@ function App() {
     <Routes>
       {/* Public routes */}
       <Route path="/" element={<Layout />}>
-        <Route index element={<Dashboard />} />
+        {/* <Route index element={<Dashboard />} /> */}
+        <Route index element={<News />} />
         <Route path="diseases" element={<Diseases />} />
         <Route path="diseases/:id" element={<DiseaseDetail />} />
         <Route path="statistics" element={<Statistics />} />
