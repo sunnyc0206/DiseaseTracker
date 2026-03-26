@@ -30,7 +30,7 @@ const Layout = ({ isAdmin = false }) => {
   };
 
   const publicNavigation = [
-    { name: 'Dashboard', href: '/', icon: HomeIcon },
+    { name: 'Dashboard', href: '/dashboard', icon: HomeIcon },
     { name: 'Diseases', href: '/diseases', icon: ChartBarIcon },
     { name: 'Statistics', href: '/statistics', icon: ChartBarIcon },
     { name: 'News', href: '/news', icon: NewspaperIcon },
